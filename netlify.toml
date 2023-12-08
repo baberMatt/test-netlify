@@ -1,5 +1,5 @@
 [build]
-command = "npm run build"
+command = "np convex deploy --cmd 'npm run build'"
 publish = "public"
 
 [dev]
