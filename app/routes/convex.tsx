@@ -1,9 +1,9 @@
 import React from 'react'
 import { ConvexHttpClient } from 'convex/browser'
-import { LoaderFunctionArgs } from '@vercel/remix'
+import { LoaderFunctionArgs } from '@remix-run/node'
 import { useLoaderData } from '@remix-run/react'
 import { api } from 'convex/_generated/api'
-import { json } from '@vercel/remix'
+import { json } from '@remix-run/node'
 import {
   isRouteErrorResponse,
   useRouteError,

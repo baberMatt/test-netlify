@@ -1,5 +1,5 @@
 import { useLoaderData } from '@remix-run/react'
-import { LoaderFunctionArgs, json } from '@vercel/remix'
+import { LoaderFunctionArgs, json } from '@remix-run/node'
 
 
 export const loader = async ({ request }: LoaderFunctionArgs) => {
